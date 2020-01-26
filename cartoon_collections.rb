@@ -27,3 +27,12 @@ def find_the_cheese(array)
     cheese_types.include?(type)
   end 
 end
+
+
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect do |call|
+    call.capitalize + "!"
+  end 
+end 
+  
+end 
